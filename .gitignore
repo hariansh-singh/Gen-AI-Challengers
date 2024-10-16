@@ -1,0 +1,82 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build directories
+/dist/
+/build/
+/public/dist/
+/public/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Log files
+*.log
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor directories
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS Finder attributes
+.AppleDouble
+.LSOverride
+
+# Windows Installer files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux trash folder which might appear on network shares
+.Trash-*
+
+# Cloudinary
+uploads/
+
+# Coverage directory for testing
+coverage/
+
+# MongoDB files
+data/
+
+# Tailwind CSS
+tailwindcss-cache/
+
+# Public files (optional, based on your project structure)
+public/uploads/
+public/avatar_images/
+
+# OpenCV (optional)
+opencv_data/
+
+# Build tools directories
+/.next/
+/out/
+/.esbuild/
+.babel-cache/
+
+# Other files that are typically added to .gitignore
+*.bak
+*.swp
+*.swo
+*.tmp
+
+CODE_of_CONDUCT.md
+CONTRIBUTING.md
+learn.md
+README.md
+SECURiTY.md
