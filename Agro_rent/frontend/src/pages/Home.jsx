@@ -15,9 +15,7 @@ function Home() {
           <h1 className='hover:bg-[#b2d8b4] p-1 rounded-md'><Link to="/contact">Contact us</Link></h1>
           <h1 className='hover:bg-[#b2d8b4] p-1 rounded-md'><Link to="/about">About us</Link></h1>
         </div>
-        <div className='flex items-end justify-end w-1/3'>
-          <button className="bg-[#b2d8b4] hover:bg-[#9fd39b] text-black font-bold py-2 px-4 rounded"><Link to="/login">Login</Link></button>
-        </div>
+        
       </nav>
 
       {/* Video Section------------------ */}

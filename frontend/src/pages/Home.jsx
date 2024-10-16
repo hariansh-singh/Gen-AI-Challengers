@@ -92,17 +92,6 @@ export default function Home() {
             </motion.div>
           </div>
         </motion.div>
-        <div className="relative">
-          <button
-            onClick={handleChatBotAuthentication} // Call handleChatBotAuthentication on button click
-            className="group fixed bottom-4 right-20 bg-green-500 rounded-full p-3 shadow-lg transition-transform transform hover:scale-110 animate-swing"
-          >
-            <FaComment className="text-white text-3xl" />
-            <span className="absolute -top-10 -right-4 bg-white text-green-500 text-sm rounded-md px-2 py-1 opacity-0 transition-opacity duration-300 group-hover:opacity-100 blink-text">
-              Try Our ChatBot
-            </span>
-          </button>
-        </div>
 
         {/* Hero Image */}
         <motion.div

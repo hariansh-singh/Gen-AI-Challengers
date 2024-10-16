@@ -20,7 +20,7 @@ const Footer = () => {
   ];
 
   // Define social media links
-  const socialMedia = [{ Icon: FaGithub, link: "", color: "#333" }];
+  const socialMedia = [{ Icon: FaGithub, link: "https://github.com/hariansh-singh/Gen-AI-Challengers.git", color: "#333" }];
 
   const handleRating = (value) => {
     setRating(value);

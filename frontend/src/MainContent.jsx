@@ -33,7 +33,6 @@ import Products from "./pages/Products";
 import AuthPage from './components/AuthPage';
 import FertilizerCalculator from './components/tools/FertilizerCalculator';
 import WhyAI from './pages/WhyAI'; // Import the WhyAI component
-import LoginPage from './components/LoginPage';
 import SignUpPage from './components/SignUpPage';
 import { AuthProvider } from './context/AuthContext';
 import TermsAndConditions from './components/TermsAndConditions';
@@ -66,7 +65,7 @@ const MainContent = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsPreloaderVisible(false);
-    }, 5000); // Preloader visible for 5 seconds
+    }, 2650); // Preloader visible for 5 seconds
     return () => clearTimeout(timer);
   }, []);
 
@@ -122,9 +121,7 @@ const MainContent = () => {
                 <Route path="/MushroomEdibility" element={<MushroomEdibility/>}/>
                 <Route path="/products" element={<Products />} />
                 <Route path="/Auth-page" element={<AuthPage />} />
-                <Route path="/whyai" element={<WhyAI />} /> {/* Add the route for Why AI */}
-                <Route path="/login" element={<LoginPage />} />
-                <Route path="/signup" element={<SignUpPage />} />
+                <Route path="/whyai" element={<WhyAI />} /> Add the route for Why AI
                 <Route path="/terms" element={<TermsAndConditions />} />
                 <Route path="/cookie-policy" element={<CookiePolicy />} />
                 <Route path="/news" element={<NewsForum />} />
